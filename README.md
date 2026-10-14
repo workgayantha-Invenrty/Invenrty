@@ -21,7 +21,7 @@ Same files always give the same numbers (no AI involved).
 ## BOM template columns (any sheet, any order)
 Style (or PO), Section (1 Cutting / 2 Upper closing / 3 Lasting & Desma / 4 Finishes / 5 Packing), Component, S-No, Description, UOM, PRD YY, Unit Cost USD (Ex Work), Loss % (optional).
 If a PO column is present each PO keeps its own BOM; otherwise the style BOM is used.
-
+111111
 ## History
 Saved per report date: totals + PO-wise rows. Nothing is ever deleted automatically - a PO that leaves the report stays in the **PO register** marked CLOSED.
 History tab: saved weeks, trend chart, compare two weeks (new / closed POs, value change), export / import JSON.
