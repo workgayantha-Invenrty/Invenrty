@@ -1,0 +1,9 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // weekly snapshots: only signed-in users (your Firebase Auth users) can read / write
+    match /weeks/{weekId} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
